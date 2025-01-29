@@ -9,18 +9,38 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 <!-- font awesome -->
+<script src="https://kit.fontawesome.com/aece473922.js" crossorigin="anonymous"></script>
 
 
 <!-- tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- for customizing my tailwind config -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body>
+    <header class="flex pt-10 mb-20">
+        <div>
+            <h1 class="text-5xl md:text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+            <br>
+            <p class="text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Bud</p>
+            <br>
+            <button class="bg-gradient-to-r from-orange-400 to-orange-700  px-5 py-5 rounded-lg text-white font-bold">Explore More<i class="fa-light fa-arrow-right"></i></button>
+        </div>
+
+    </header>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+
+    </main>
     
 </body>
 </html>
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/afsara-afrose/tea-house-resources-module-practice.git
-git push -u origin main
